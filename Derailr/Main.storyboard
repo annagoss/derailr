@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ey5-6D-OPK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="Oif-eq-RWT">
+            <objects>
+                <viewController id="ey5-6D-OPK" customClass="MainViewController" customModule="Derailr" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qqW-UT-BP2"/>
+                        <viewControllerLayoutGuide type="bottom" id="LaT-jB-E89"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vKF-bw-DV9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwF-kz-Sum">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0DH-Cp-3s0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="0DH-Cp-3s0" firstAttribute="leading" secondItem="dwF-kz-Sum" secondAttribute="leading" id="8dt-mu-FpT"/>
+                                    <constraint firstItem="0DH-Cp-3s0" firstAttribute="top" secondItem="dwF-kz-Sum" secondAttribute="top" id="P6f-9p-NwU"/>
+                                    <constraint firstAttribute="trailing" secondItem="0DH-Cp-3s0" secondAttribute="trailing" id="hTx-Dt-lpS"/>
+                                    <constraint firstAttribute="bottom" secondItem="0DH-Cp-3s0" secondAttribute="bottom" id="www-B2-ivf"/>
+                                </constraints>
+                            </view>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zZl-X8-vHo">
+                                <rect key="frame" x="40" y="283" width="240" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zZl-X8-vHo" firstAttribute="leading" secondItem="vKF-bw-DV9" secondAttribute="leading" constant="40" id="9BR-BF-I40"/>
+                            <constraint firstAttribute="trailing" secondItem="zZl-X8-vHo" secondAttribute="trailing" constant="40" id="AUe-r5-Hid"/>
+                            <constraint firstItem="dwF-kz-Sum" firstAttribute="top" secondItem="vKF-bw-DV9" secondAttribute="top" id="VWI-nd-w9d"/>
+                            <constraint firstAttribute="trailing" secondItem="dwF-kz-Sum" secondAttribute="trailing" id="XpD-Mm-Kdl"/>
+                            <constraint firstItem="dwF-kz-Sum" firstAttribute="leading" secondItem="vKF-bw-DV9" secondAttribute="leading" id="bXk-qc-IxA"/>
+                            <constraint firstItem="LaT-jB-E89" firstAttribute="top" secondItem="dwF-kz-Sum" secondAttribute="bottom" id="thv-PI-Io7"/>
+                            <constraint firstAttribute="centerY" secondItem="zZl-X8-vHo" secondAttribute="centerY" id="vkw-lA-wp2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flickView" destination="dwF-kz-Sum" id="Mte-Hc-dmw"/>
+                        <outlet property="imageView" destination="0DH-Cp-3s0" id="W9F-cN-eGv"/>
+                        <outlet property="progressView" destination="zZl-X8-vHo" id="xSN-QF-4h2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Acb-y7-EWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="537"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

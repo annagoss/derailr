@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D6D4177195413CB00F44BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D4176195413CB00F44BBE /* AppDelegate.swift */; };
+		7D6D4179195413CB00F44BBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D4178195413CB00F44BBE /* Images.xcassets */; };
+		7D6D4185195413CC00F44BBE /* DerailrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D4184195413CC00F44BBE /* DerailrTests.swift */; };
+		7D6D418F1954206000F44BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D418E1954206000F44BBE /* Main.storyboard */; };
+		7D6D41BC1954253500F44BBE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D41BB1954253500F44BBE /* MainViewController.swift */; };
+		E7D9BC3E4D3443929017A958 /* libPods-Derailr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D456B1F244882BFE60791 /* libPods-Derailr.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6D417F195413CC00F44BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6D4169195413CB00F44BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6D4170195413CB00F44BBE;
+			remoteInfo = Derailr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C1FE2CE27CD4F74BED03F2E /* Pods-Derailr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Derailr.xcconfig"; path = "Pods/Pods-Derailr.xcconfig"; sourceTree = "<group>"; };
+		7D5A7A721956114D00E5E595 /* Derailr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Derailr-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D6D4171195413CB00F44BBE /* Derailr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Derailr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6D4175195413CB00F44BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6D4176195413CB00F44BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D6D4178195413CB00F44BBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D6D417E195413CC00F44BBE /* DerailrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DerailrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6D4183195413CC00F44BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6D4184195413CC00F44BBE /* DerailrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerailrTests.swift; sourceTree = "<group>"; };
+		7D6D418E1954206000F44BBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D6D41BB1954253500F44BBE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8D3D456B1F244882BFE60791 /* libPods-Derailr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Derailr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D6D416E195413CB00F44BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D9BC3E4D3443929017A958 /* libPods-Derailr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6D417B195413CC00F44BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A40A1BE336747EC839CDD19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D456B1F244882BFE60791 /* libPods-Derailr.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D6D4168195413CB00F44BBE = {
+			isa = PBXGroup;
+			children = (
+				7D6D4173195413CB00F44BBE /* Derailr */,
+				7D6D4181195413CC00F44BBE /* DerailrTests */,
+				7D6D4172195413CB00F44BBE /* Products */,
+				6C1FE2CE27CD4F74BED03F2E /* Pods-Derailr.xcconfig */,
+				3A40A1BE336747EC839CDD19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6D4172195413CB00F44BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D4171195413CB00F44BBE /* Derailr.app */,
+				7D6D417E195413CC00F44BBE /* DerailrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D6D4173195413CB00F44BBE /* Derailr */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D4176195413CB00F44BBE /* AppDelegate.swift */,
+				7D6D418E1954206000F44BBE /* Main.storyboard */,
+				7D6D41BB1954253500F44BBE /* MainViewController.swift */,
+				7D6D4178195413CB00F44BBE /* Images.xcassets */,
+				7D6D4174195413CB00F44BBE /* Supporting Files */,
+				7D5A7A721956114D00E5E595 /* Derailr-Bridging-Header.h */,
+			);
+			path = Derailr;
+			sourceTree = "<group>";
+		};
+		7D6D4174195413CB00F44BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D4175195413CB00F44BBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D6D4181195413CC00F44BBE /* DerailrTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D4184195413CC00F44BBE /* DerailrTests.swift */,
+				7D6D4182195413CC00F44BBE /* Supporting Files */,
+			);
+			path = DerailrTests;
+			sourceTree = "<group>";
+		};
+		7D6D4182195413CC00F44BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D4183195413CC00F44BBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6D4170195413CB00F44BBE /* Derailr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6D4188195413CC00F44BBE /* Build configuration list for PBXNativeTarget "Derailr" */;
+			buildPhases = (
+				11BBBB2FADCB41D6ADD52BDC /* Check Pods Manifest.lock */,
+				7D6D416D195413CB00F44BBE /* Sources */,
+				7D6D416E195413CB00F44BBE /* Frameworks */,
+				7D6D416F195413CB00F44BBE /* Resources */,
+				777A9813510F46E6AEE4A5BC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Derailr;
+			productName = Derailr;
+			productReference = 7D6D4171195413CB00F44BBE /* Derailr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6D417D195413CC00F44BBE /* DerailrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6D418B195413CC00F44BBE /* Build configuration list for PBXNativeTarget "DerailrTests" */;
+			buildPhases = (
+				7D6D417A195413CC00F44BBE /* Sources */,
+				7D6D417B195413CC00F44BBE /* Frameworks */,
+				7D6D417C195413CC00F44BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6D4180195413CC00F44BBE /* PBXTargetDependency */,
+			);
+			name = DerailrTests;
+			productName = DerailrTests;
+			productReference = 7D6D417E195413CC00F44BBE /* DerailrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6D4169195413CB00F44BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jamie White";
+				TargetAttributes = {
+					7D6D4170195413CB00F44BBE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7D6D417D195413CC00F44BBE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7D6D4170195413CB00F44BBE;
+					};
+				};
+			};
+			buildConfigurationList = 7D6D416C195413CB00F44BBE /* Build configuration list for PBXProject "Derailr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D6D4168195413CB00F44BBE;
+			productRefGroup = 7D6D4172195413CB00F44BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6D4170195413CB00F44BBE /* Derailr */,
+				7D6D417D195413CC00F44BBE /* DerailrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6D416F195413CB00F44BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6D4179195413CB00F44BBE /* Images.xcassets in Resources */,
+				7D6D418F1954206000F44BBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6D417C195413CC00F44BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11BBBB2FADCB41D6ADD52BDC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		777A9813510F46E6AEE4A5BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Derailr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6D416D195413CB00F44BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6D4177195413CB00F44BBE /* AppDelegate.swift in Sources */,
+				7D6D41BC1954253500F44BBE /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6D417A195413CC00F44BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6D4185195413CC00F44BBE /* DerailrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6D4180195413CC00F44BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6D4170195413CB00F44BBE /* Derailr */;
+			targetProxy = 7D6D417F195413CC00F44BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D6D4186195413CC00F44BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Derailr/Derailr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D6D4187195413CC00F44BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Derailr/Derailr-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6D4189195413CC00F44BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1FE2CE27CD4F74BED03F2E /* Pods-Derailr.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Derailr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D6D418A195413CC00F44BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1FE2CE27CD4F74BED03F2E /* Pods-Derailr.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Derailr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D6D418C195413CC00F44BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Derailr.app/Derailr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DerailrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7D6D418D195413CC00F44BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Derailr.app/Derailr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DerailrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D6D416C195413CB00F44BBE /* Build configuration list for PBXProject "Derailr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6D4186195413CC00F44BBE /* Debug */,
+				7D6D4187195413CC00F44BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6D4188195413CC00F44BBE /* Build configuration list for PBXNativeTarget "Derailr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6D4189195413CC00F44BBE /* Debug */,
+				7D6D418A195413CC00F44BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6D418B195413CC00F44BBE /* Build configuration list for PBXNativeTarget "DerailrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6D418C195413CC00F44BBE /* Debug */,
+				7D6D418D195413CC00F44BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6D4169195413CB00F44BBE /* Project object */;
+}
