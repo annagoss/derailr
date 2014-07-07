@@ -1,10 +1,1 @@
-PODS:
-  - DPFlickView (0.1)
-
-DEPENDENCIES:
-  - DPFlickView
-
-SPEC CHECKSUMS:
-  DPFlickView: 22afd910d0ea91e98211d208ece5d5c8a2df1a10
-
 COCOAPODS: 0.33.1

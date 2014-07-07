@@ -2,10 +2,7 @@
 # platform :ios, "6.0"
 
 target "Derailr" do
-  pod "DPFlickView"
 end
 
 target "DerailrTests" do
-
 end
-
